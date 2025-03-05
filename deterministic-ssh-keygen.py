@@ -134,9 +134,7 @@ def main():
             f.write(formatted_public_key)
         
         # Output keys to console
-        print("Private Key (written to id_ed25519):")
-        print(formatted_private_key)
-        print("\nPublic Key (written to id_ed25519.pub):")
+        print("Keys written to id_ed25519 and id_ed25519.pub")
         print(formatted_public_key)
     
     except ValueError as e:
